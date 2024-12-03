@@ -1086,9 +1086,9 @@ def vocab_extend(project_name, symbols, model_type):
         f.write("\n".join(vocab))
 
     if model_type == "F5-TTS":
-        ckpt_path = str(cached_path("hf://sarpba/F5-TTS-Hun/hun_v4/model_524580_hun.safetensors"))
+        ckpt_path = str(cached_path("hf://sarpba/F5-TTS-Hun/hun_v4/model_524580.pt"))
     else:
-        ckpt_path = str(cached_path("hf://sarpba/F5-TTS-Hun/hun_v4/model_524580_hun.safetensors"))
+        ckpt_path = str(cached_path("hf://sarpba/F5-TTS-Hun/hun_v4/model_524580.pt"))
 
     vocab_size_new = len(miss_symbols)
 

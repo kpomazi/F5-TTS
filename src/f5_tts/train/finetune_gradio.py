@@ -120,7 +120,7 @@ def load_settings(project_name):
             "save_per_updates": 300,
             "last_per_steps": 100,
             "finetune": True,
-            "file_checkpoint_train": "",
+            "file_checkpoint_train": str(cached_path("hf://sarpba/F5-TTS-Hun/hun_v4/model_524580.pt")),
             "tokenizer_type": "pinyin",
             "tokenizer_file": "",
             "mixed_precision": "none",

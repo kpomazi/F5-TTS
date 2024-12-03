@@ -1660,7 +1660,7 @@ If you encounter a memory error, try reducing the batch size per GPU to a smalle
                     save_per_updates,
                     last_per_steps,
                     ch_finetune,
-                    str(cached_path("hf://sarpba/F5-TTS-Hun/hun_v4/model_524580.pt")),
+                    file_checkpoint_train,
                     tokenizer_type,
                     tokenizer_file,
                     mixed_precision,
